@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.preserve {
+  transform-style: preserve-3d;
+}
+
+.perspective {
+  perspective: 500px;
+}
+
+.backface-visibility {
+  backface-visibility: hidden;
+}
